@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    background-color: #101011;
+}
+
+h1 {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.nav-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.nav-bar {
+    background-color: #201c1c;
+    height: 50px;
+    width: 1000px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #f5f4ed;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+.name-div {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.image-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-div {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(images/profile-image-cropped.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.marquee-text {
+    margin-top: 30px;
+}
+
+marquee {
+    font-size: 200px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.about-container {
+    margin-top: 130px;
+    height: 300px;
+}
+
+.about {
+    height: 50px;
+    text-align: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.space-between {
+    height: 120px;
+    /* margin-top: 60px; */
+}
+
+.projects-parent {
+    text-align: center;
+    height: 1000px;
+}
+
+.containers-text {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.projects-container {
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects-div {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 400px;
+    /* border-radius: 1px; */
+    border-color: #f5f4ed;
+    border-style: solid;
+    /* cursor: pointer; */
+}
+
+.projects-div:hover {
+    border-color: #8861ff;
+}
+
+.project-div-parent {
+    width: 600px;
+    height: 400px;
+    background-color: #8861ff;
+}
+
+.projects-div h1 {
+    margin-bottom: 20px;
+}
+
+.beatscape-para {
+    margin-bottom: 44px;
+}
+
+.pupilspace-para {
+    margin-bottom: 65px;
+}
+
+.airline-para {
+    margin-bottom: 25px;
+}
+
+.projects-read-more {
+    height: 80px;
+    display: flex;
+    align-items: end;
+}
+
+.projects-read-more a:hover {
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+.experiences-parent {
+    text-align: center;
+}
+
+.experiences-container {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.experiences-div {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 400px;
+    /* border-radius: 1px; */
+    border-color: #f5f4ed;
+    border-style: solid;
+    /* cursor: pointer; */
+}
+
+.experiences-div h1 {
+    margin-bottom: 10px;
+}
+.experiences-div h2 {
+    margin-bottom: 10px;
+}
+
+.experiences-div:hover {
+    border-color: #8861ff;
+}
+
+.library-assistant-para {
+    margin-bottom: 36px;
+}
+
+.it-assistant-para {
+    margin-bottom: 55px;
+}
+
+.know-more {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.know-more-div {
+    padding-top: 20px;
+    text-align: center;
+    width: 1200px;
+    height: 200px;
+    border-color: #f5f4ed;
+    border-style: solid;
+}
+
+.know-more-link {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.know-more-link-div {
+    width: 200px;
+    height: 50px;
+    border-color: #f5f4ed;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-div {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background-contact-me-filtered.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-me {
+    width: 600px;
+    height: 400px;
+    background-color: #101011;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-link {
+    text-decoration: underline;
+}
+
+.footer-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left-div {
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    opacity: 0.8;
+}
+
+.footer-links:hover {
+    opacity: 1;
+}
+
+.right-div {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages-div {
+    width: 250px;
+}
+
+.pages-div p {
+    margin-bottom: 30px;
+}
+
+.socials-div {
+    width: 250px;
+}
+
+.socials-div p {
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    font-size: 30px;
+}
+
+.text-bold {
+    font-size: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.text {
+    font-size: 40px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-top: 50px;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: scroll-left 15s linear infinite;
+  font-size: 200px;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-content span {
+  padding-right: 100px; /* adjust spacing between repeats */
+}
